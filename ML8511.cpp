@@ -186,11 +186,11 @@ ML8511::ML8511(uint8_t UVOUT, uint8_t REF3V3) {
 }
 
 
-void ML8511::begin(void)
+bool ML8511::begin(void)
 {
   pinMode(_UVOUT, INPUT);
   pinMode(_REF_3V3, INPUT);
-
+return true;
 }
 
 int averageAnalogRead(int pinToRead)
