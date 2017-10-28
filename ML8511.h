@@ -188,7 +188,7 @@ Library.
 class ML8511 {
   public:
     ML8511(uint8_t UVOUT, uint8_t REF_3V3 );
-    void begin(void);
+    bool begin(void);
     double getuvIntensity(void);
     double getoutputVoltage(void);
 
