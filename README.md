@@ -1,1 +1,1 @@
-# ML8511_uv_sensor
+# ML8511 sensor library for Arduino and Arduino compatible boards.
